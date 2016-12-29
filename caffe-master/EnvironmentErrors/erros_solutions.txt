@@ -1,0 +1,9 @@
+1.错误情形
+“System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”无法加载的原因。
+ 解决方法：安装DotnetFramework3.5。
+2.错误情形
+  error C2220: 警告被视为错误 - 没有生成“object”文件 (..\..\src\caffe\util\math_functions.cpp)
+  解决方法：点击项目，右击选择属性->配置属性->c/c++->常规，将“警告视为错误”的选项改为“否”。
+3.CommonSettings.props为项目属性文件，每次修改后，都必须进行编译，才能生效。
+4.NugetPackages文件夹下的包可能跟路径相关，可能跟项目路径相关，每次更换项目路径后，需删除NugetPackages
+文件夹，然后重新编译caffe解决方案，还原NugetPackages包。
