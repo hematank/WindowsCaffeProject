@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>protobuf-v120</id>
+    <version>2.6.1</version>
+    <title>Protocol Buffers v120</title>
+    <authors>google</authors>
+    <owners>google</owners>
+    <licenseUrl>https://raw.githubusercontent.com/google/protobuf/v2.6.1/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/spoqa/protobuf-v120</projectUrl>
+    <iconUrl>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Protocol Buffers - Google's data interchange format</description>
+    <summary>Protocol Buffers (C++) v120 libraries</summary>
+    <releaseNotes>https://raw.githubusercontent.com/google/protobuf/v2.6.1/CHANGES.txt</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>native cpp protobuf serialization nativepackage</tags>
+  </metadata>
+</package>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>glog</id>
+    <version>0.3.3.0</version>
+    <title>glog</title>
+    <authors>Guillaume Dumont</authors>
+    <owners>Guillaume Dumont</owners>
+    <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
+    <projectUrl>https://code.google.com/p/google-glog/</projectUrl>
+    <iconUrl>https://ssl.gstatic.com/codesite/ph/images/search-48.gif%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20requireLicenseAcceptance:false</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The glog library implements application-level logging. 
+         This library provides logging APIs based on C++-style streams and various helper macros.</description>
+    <summary>Logging library for C++</summary>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>nativepackage CoApp glog</tags>
+    <dependencies>
+      <dependency id="gflags" version="2.0.1.0" />
+    </dependencies>
+  </metadata>
+</package>

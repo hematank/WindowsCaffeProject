@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LevelDB-vc120</id>
+    <version>1.2.0.0</version>
+    <title>LevelDB vc120</title>
+    <authors>Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)</authors>
+    <owners>Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)</owners>
+    <licenseUrl>https://github.com/google/leveldb/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/google/leveldb</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LevelDB is an embedded key-value database with fast random writes and fast reads of key ranges.</description>
+    <summary>LevelDB headers and dlls compiled with Visual Studio 2013 update 5 for 32bit and 64bit windows.</summary>
+    <releaseNotes>Code is picked up from https://github.com/google/leveldb/tree/windows</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>leveldb nosql database data fast native nativepackage</tags>
+    <dependencies>
+      <dependency id="boost_date_time-vc120" version="1.59.0" />
+    </dependencies>
+  </metadata>
+</package>

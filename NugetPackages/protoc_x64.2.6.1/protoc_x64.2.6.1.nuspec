@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>protoc_x64</id>
+    <version>2.6.1</version>
+    <title>Protocol Buffer compiler</title>
+    <authors>google</authors>
+    <owners>google</owners>
+    <licenseUrl>https://raw.githubusercontent.com/google/protobuf/v2.6.1/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/spoqa/protobuf-v120</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>x64 compiler for Google protocol buffer format.</description>
+    <summary>x64 compiler for Google protocol buffer format.</summary>
+    <releaseNotes>https://raw.githubusercontent.com/google/protobuf/v2.6.1/CHANGES.txt</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>protobuf</tags>
+  </metadata>
+</package>

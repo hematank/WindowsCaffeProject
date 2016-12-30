@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>lmdb-v120-clean</id>
+    <version>0.9.14.0</version>
+    <title>lmdb-v120-clean</title>
+    <authors>Howard Chu, Symas Corp</authors>
+    <owners>Howard Chu, Symas Corp</owners>
+    <licenseUrl>http://www.openldap.org/license.html</licenseUrl>
+    <projectUrl>http://symas.com/mdb</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LMDB is an ultra-fast, ultra-compact key-value embedded data store developed by Symas for the OpenLDAP Project.</description>
+    <summary>LMDB headers and dlls compiled with Visual Studio 2013 for 32bit and 64bit windows.</summary>
+    <releaseNotes>This is same as lmdb-v120 package, except it doesn't copy VC120 runtime DLLs to output. https://gitorious.org/mdb/mdb/raw/3368d1f5e243225cba4d730fba19ff600798ebe3:libraries/liblmdb/CHANGES</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>native lmdb liblmdb nativepackage</tags>
+  </metadata>
+</package>

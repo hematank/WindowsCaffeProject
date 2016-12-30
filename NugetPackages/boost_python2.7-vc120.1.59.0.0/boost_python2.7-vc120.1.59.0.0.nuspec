@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>boost_python2.7-vc120</id>
+    <version>1.59.0.0</version>
+    <title>boost_python2.7-vc120</title>
+    <authors>Boost</authors>
+    <owners>Boost</owners>
+    <licenseUrl>http://www.boost.org/users/license.html</licenseUrl>
+    <projectUrl>http://www.boost.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>boost_python2.7-vc120. Compiler: Visual Studio 2013 Update 5. Platforms: Win32, x64.</description>
+    <summary />
+    <tags>native nativepackage C++ Boost binaries vc120 python Win32 x64</tags>
+    <dependencies>
+      <dependency id="boost" version="[1.59.0]" />
+    </dependencies>
+  </metadata>
+</package>

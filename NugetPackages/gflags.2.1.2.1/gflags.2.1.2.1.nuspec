@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>gflags</id>
+    <version>2.1.2.1</version>
+    <title>gflags</title>
+    <authors>Guillaume Dumont</authors>
+    <owners>Guillaume Dumont</owners>
+    <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
+    <projectUrl>https://code.google.com/p/gflags/</projectUrl>
+    <iconUrl>https://ssl.gstatic.com/codesite/ph/images/defaultlogo.png%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20requireLicenseAcceptance:false</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The gflags package contains a library that implements commandline flags processing. 
+         As such it's a replacement for getopt(). It has increased flexibility, including built-in support 
+         for C++ types like string, and the ability to define flags in the source file in which they're used.
+         
+         This nuget package includes static and shared binaries for 32 and 64 bit architectures 
+         and for v100, v110 and v120 platform toolsets.</description>
+    <summary>Commandline flags module for C++</summary>
+    <releaseNotes>Fixed issue with includes and CMake-based consuming projects.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>native CoApp gflags commandline nativepackage</tags>
+  </metadata>
+</package>
