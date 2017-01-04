@@ -4,8 +4,8 @@
     <PropertyGroup Label="UserMacros">
         <BuildDir>$(SolutionDir)..\Build</BuildDir>
         <!--NOTE: CpuOnlyBuild and UseCuDNN flags can't be set at the same time.-->
-        <CpuOnlyBuild>false</CpuOnlyBuild>
-        <UseCuDNN>true</UseCuDNN>
+        <CpuOnlyBuild>true</CpuOnlyBuild>
+        <UseCuDNN>false</UseCuDNN>
         <CudaVersion>8.0</CudaVersion>
         <!-- NOTE: If Python support is enabled, PythonDir (below) needs to be
          set to the root of your Python installation. If your Python installation
